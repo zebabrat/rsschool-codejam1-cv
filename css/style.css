@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+} 
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 200px;
+    float: right;
+    box-shadow: 7px -6px 15px 0px rgba(199, 150, 100, 0.6);
+}
