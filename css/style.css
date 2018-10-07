@@ -60,7 +60,7 @@ span, a {
   display: flex;
   padding-top: 10px;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: flex-start;
   background: rgb(230, 230, 230);
 }
 
@@ -109,4 +109,10 @@ h3 {
   list-style: none;
   column-count: 3;
   height: 100px;
+}
+
+.summary {
+  padding: 5px;
+  background: rgb(230, 230, 230);
+  font-size: 22px;
 }
