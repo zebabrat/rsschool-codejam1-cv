@@ -7,7 +7,6 @@
 .container {
   width: 1024px;
   margin: 0 auto;
-  padding: 15px;
 }
 
 .title {
@@ -53,6 +52,61 @@ li {
   color: brown;
 }
 
-span {
-  padding-left: 10px;
+span, a {
+  padding-left: 15px;
+}
+
+.main {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-around;
+  align-items: baseline;
+  background: rgb(230, 230, 230);
+}
+
+.fa-github-square {
+  color: rgb(0, 0, 0);
+}
+
+.fa-linkedin {
+  color: rgb(11, 112, 226);
+}
+
+.fa-html5 {
+  color: rgb(255, 0, 0);
+}
+
+.fa-css3-alt {
+  color: rgb(0, 0, 255);
+}
+
+.fa-js-square {
+  color : rgb(255, 255, 0);
+}
+
+.fa-react {
+  color: rgb(21, 175, 180);
+}
+
+.fa-code-branch {
+  color: orange;
+}
+
+.main i {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 145, 150);
+}
+
+h3 {
+  text-align: center;
+}
+
+.column-skills {
+  list-style: none;
+  column-count: 3;
+  height: 100px;
 }
